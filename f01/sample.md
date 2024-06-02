@@ -1,15 +1,12 @@
 
-###只是显示图片
-![github](http://github.com/unicorn.png "github")
-
-###想点击某个图片进入一个网页,比如我想点击github的icorn然后再进入www.github.com
-[![image]](http://www.github.com/)
-
-[image]: http://github.com/github.png "github"
-
-
-
-<img src=".\res.bundle\pe_.PNG">
+```objc
+@available(iOS 13.0, *)
+func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
+    // Called when a new scene session is being created.
+    // Use this method to select a configuration to create the new scene with.
+    return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
+}
+```
 
 
 ![bundle_img](./res.bundle/pe_.PNG)
